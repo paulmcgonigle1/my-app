@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const UploadJSONComponent = () => {
   const [selectedFiles, setSelectedFiles] = useState([]);
-
+   //setting up to work with backend flask
   const handleFileChange = (event) => {
     setSelectedFiles(Array.from(event.target.files));
   };
